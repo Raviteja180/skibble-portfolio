@@ -1,0 +1,75 @@
+*{
+    margin : 0px;
+    padding : 0px;
+}
+.parent{
+    width : 80%;
+    margin : 50px auto;
+    border : 1px solid white;
+    background-color:rgb(97, 88, 153);
+    border-radius : 10px;
+    color: white;
+    font-size : 18px;
+    box-shadow: 8px 8px 3px rgb(214, 214, 214);
+}
+.profilePic{
+    width :50%;
+    margin : 50px auto;
+    margin-top:20px;
+    display : flex;
+    align-items : center;
+    justify-content: space-around;
+}
+.block1{
+    margin-top : 20px;
+}
+
+img{
+    width : 150px;
+    height : 150px;
+    border-radius: 50%;
+    object-fit: contain;
+    border: 2px solid rgb(30, 5, 87);
+}
+.career{
+    margin-bottom : 20px;
+    margin-left: 200px;
+}
+.education {
+    width : fit-content;
+    margin-left: 200px;
+}
+.career > h3, .education > h3,.projects > h3 {
+    border-bottom: 2px solid white;
+    padding-bottom : 10px;
+    margin-bottom: 10px;
+    width : fit-content;
+}
+li{
+    padding : 5px;
+}
+ul{
+    margin-bottom : 20px;
+}
+a{
+    color : white;
+    text-decoration: none;
+}
+.github {
+    text-decoration: underline;
+}
+.projects{ 
+    margin-left : 200px;
+    margin-bottom : 20px;
+}
+.calculator,.colorPicker,.counterApp,.faqApp,.menuApp,.paypal{
+    padding : 10px;
+    background-color: rgb(97, 88, 153);
+    border: 1px solid white;;
+    font-size : 18px;
+    border-radius : 5px;
+    margin-right : 40px;
+}
+button:hover{
+    background-color: rgb(74, 62, 146);
+}
